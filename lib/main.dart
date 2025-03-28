@@ -35,13 +35,11 @@ class HomePage extends StatelessWidget {
   }
 }
 
-/*
--Scaffold
- -AppBar
-  -title
-   -Text
- -body
-  -colum
-    -container
-     -row
-  */
+//StationListPage 클래스 생성
+class StationListPage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    throw UnimplementedError();
+  }
+}
