@@ -4,6 +4,6 @@ import 'package:flutter/material.dart';
 class StationTitle extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Text('StationTitle);
+    return Text('StationTitle');
   }
 }
