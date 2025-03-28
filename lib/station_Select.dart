@@ -10,7 +10,7 @@ class StationSelect extends StatelessWidget {
         children: [
           Container(
             height: 200,
-            decoration: BoxDecoration(color: Colors.black),
+            decoration: BoxDecoration(color: Colors.white),
           ),
         ],
       ),
