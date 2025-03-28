@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_train_app/station_title.dart';
+import 'package:flutter_train_app/station_select.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +19,8 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //background color grey[200]적용
+      backgroundColor: Colors.grey[200],
       appBar: AppBar(title: Text('기차예매')),
       body: Column(children: [StationSelect()]),
     );
