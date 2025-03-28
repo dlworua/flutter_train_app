@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('기차예매')),
-      body: Column(children: [StationTitle()]),
+      body: Column(children: [StationSelect()]),
     );
   }
 }
