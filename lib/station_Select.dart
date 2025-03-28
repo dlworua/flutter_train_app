@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-//app bar  stationTitle 생성
+//StateSelect 클래스 위젯 생성
 class StationSelect extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -16,28 +16,31 @@ class StationSelect extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           //"출발역" 텍스트 생성(사이즈 '15', 색상 'grey', 글꼴 굵게 설정)
-          Text(
-            '도착역',
-            style: TextStyle(
-              fontSize: 16,
-              color: Colors.grey,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
+          stationBox('출발역', '선택'),
           //"선택" 텍스트 생성(폰트사이즈 '40' 설정)
-          Text('선택', style: TextStyle(fontSize: 40)),
+
           //세로선 생성 (너비 '2', 높이 '50', 색상 'Colors.grey[400]'설정)
           Container(width: 2, height: 50, color: Colors.grey[400]),
+          stationBox('도착역', '선택'),
+        ],
+      ),
+    );
+  }
+
+  Expanded stationBox(String text, String station) {
+    return Expanded(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
           Text(
-            '출발역',
+            text,
             style: TextStyle(
               fontSize: 16,
               color: Colors.grey,
               fontWeight: FontWeight.bold,
             ),
           ),
-          //"선택" 텍스트 생성(폰트사이즈 '40' 설정)
-          Text('선택', style: TextStyle(fontSize: 40)),
+          Text(station, style: TextStyle(fontSize: 40)),
         ],
       ),
     );
