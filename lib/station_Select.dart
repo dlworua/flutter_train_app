@@ -4,6 +4,16 @@ import 'package:flutter/material.dart';
 class StationSelect extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Text('StationSelect');
+    return Expanded(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Container(
+            height: 200,
+            decoration: BoxDecoration(color: Colors.black),
+          ),
+        ],
+      ),
+    );
   }
 }
