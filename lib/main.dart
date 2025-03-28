@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_train_app/station_bottom.dart';
 import 'package:flutter_train_app/station_select.dart';
 
 void main() {
@@ -24,10 +25,10 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(title: Text('기차예매')),
       //출발역, 도착역 감싸고 있는 박스위젯 가운데 정렬 및 모서리 정리
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20),
+        padding: const EdgeInsets.symmetric(horizontal: 20), //모서리정리
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [StationSelect()],
+          mainAxisAlignment: MainAxisAlignment.center, //가운데 정렬
+          children: [StationSelect(), SizedBox(height: 20), StationBottom()],
         ),
       ),
     );
