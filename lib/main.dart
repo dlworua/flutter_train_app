@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_train_app/station_select.dart';
+import 'package:flutter_train_app/station_title.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,10 +18,7 @@ class MyApp extends StatelessWidget {
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(),
-      body: Column(children: [StationSelect()]),
-    );
+    return Scaffold(appBar: AppBar(), body: Column(children: [StationTitle()]));
   }
 }
 
