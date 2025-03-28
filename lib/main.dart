@@ -18,7 +18,10 @@ class MyApp extends StatelessWidget {
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(), body: Column(children: [StationTitle()]));
+    return Scaffold(
+      appBar: AppBar(title: Text('기차예매')),
+      body: Column(children: [StationTitle()]),
+    );
   }
 }
 
