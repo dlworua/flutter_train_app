@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_train_app/station_Select_Box.dart';
 import 'package:flutter_train_app/station_bottom.dart';
-import 'package:flutter_train_app/station_list_page.dart';
 
 void main() {
   runApp(const MyApp());
