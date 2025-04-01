@@ -11,8 +11,6 @@ class _StationSelectBoxState extends State<StationSelectBox> {
   String selectedDeparture = '선택'; // 출발역 초기값
   String selectedDestination = '선택'; // 도착역 초기값
 
-  // 선택 버튼 클릭 시 이동할 수 있도록 하는 함수
-
   @override
   Widget build(BuildContext context) {
     return Container(
