@@ -34,5 +34,3 @@ class HomePage extends StatelessWidget {
     );
   }
 }
-//주석
-//주석추가2
