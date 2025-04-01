@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_train_app/station_Select_Box.dart';
 import 'package:flutter_train_app/station_bottom.dart';
-import 'package:flutter_train_app/station_select.dart';
+import 'package:flutter_train_app/station_list_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,18 +29,9 @@ class HomePage extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 20), //모서리정리
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center, //가운데 정렬
-          children: [StationSelect(), SizedBox(height: 20), StationBottom()],
+          children: [StationSelectBox(), SizedBox(height: 20), StationBottom()],
         ),
       ),
     );
-  }
-}
-
-//StationListPage 클래스 생성
-class StationListPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
   }
 }
