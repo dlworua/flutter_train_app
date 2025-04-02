@@ -127,7 +127,6 @@ StationSelectBox Container 위젯 모서리 정리 , 페이지 가운데 정렬
 - [ ] SeatPage UI 구현
 - [ ] SeatPage 기능 구현
 
-<br>
 + Homepage
   
 페이지의 디자인과 터치 이벤트시 페이지 이동까지 구현
