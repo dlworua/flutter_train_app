@@ -131,6 +131,7 @@ StationSelectBox Container 위젯 모서리 정리 , 페이지 가운데 정렬
 페이지의 디자인과 터치 이벤트시 페이지 이동까지 구현
 <br>
 + StationListPage
+  
 페이지 내의 디자인은 완성했으나 터치 이벤트 및 데이터 이동 구현 못함
 <br>
 + SeatPage
